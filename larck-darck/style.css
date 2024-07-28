@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Estilos globais */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Tema claro */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Tema escuro */
+body.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Estilos adicionais para a aparência */
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+}
